@@ -1,0 +1,70 @@
+.hover-section li a:hover{
+	background-color: blue;
+	color: white;
+}
+.hover-section a{
+	font-size: 12px;
+}
+.button-section button{
+	font-size: 32px;
+	border: none;
+}
+.product-section p{
+	font-size: 40px;
+	color: #c5c7c9;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.product-section .col-lg-2 .card{
+	width:180px;  
+	height: 350px;
+}
+.product-section .card-body p{
+	font-size: 12px;
+}
+.logo-section button{
+	font-size: 15px;
+}
+.bg-lightgrey{
+	background-color: #e8e8e8;
+}
+@media(max-width:770px)
+{
+	.button-section .btn-primary{
+		margin-left: 110px;
+		margin-right: 100px;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width:770px)
+{
+	.button-section .btn-warning{
+		margin-left: 120px;
+		margin-right: 110px;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width:770px)
+{
+	.button-section .btn-danger{
+		margin-left: 100px;
+		margin-right: 90px;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width:770px)
+{
+	.button-section .btn-info{
+		margin-left: 120px;
+		margin-right: 110px;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width:770px)
+{
+	.product-section .card {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+}
